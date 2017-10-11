@@ -46,9 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     MyData.drawableArray[i]
             ));
         }
-
         removedItems = new ArrayList<Integer>();
-
         adapter = new CustomAdapter(data);
         recyclerView.setAdapter(adapter);
     }
